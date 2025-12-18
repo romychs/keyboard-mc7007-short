@@ -1,0 +1,10950 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eec0dfdc-f819-4752-bef3-f6d3b3ac2b99")
+	(paper "A4")
+	(title_block
+		(title "Клавиатура МС-7007К")
+		(date "18.12.25")
+		(rev "v1.0.2")
+		(company "Romych's home")
+		(comment 1 "Схема принципиальная")
+		(comment 2 "Boykov R.A.")
+		(comment 3 "Boykov R.A.")
+		(comment 4 "Boykov R.A.")
+	)
+	(lib_symbols
+		(symbol "Keyboard-MC7007-Short:CHERY_MX_DIODE_6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S8"
+				(at -1.27 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "AP2"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CHERY_MX_DIODE_6_0_0"
+				(polyline
+					(pts
+						(xy -2.286 0.762) (xy -0.254 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.651 -0.508)
+					(mid -2.5146 -0.508)
+					(end -1.651 -0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0.762) (xy -0.254 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0.762) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4638 -0.508)
+					(mid 1.5494 -0.508)
+					(end 2.4638 -0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CHERY_MX_DIODE_6_1_0"
+				(pin passive line
+					(at -5.08 -0.508 0)
+					(length 2.4892)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -0.508 180)
+					(length 2.4892)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keyboard-MC7007-Short:HDR-TH-12x1-2.54P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "XP2"
+				(at 0 17.526 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "HDR-TH-12x1-2.54P"
+				(at 0 -17.272 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Keyboard-MC7007-Short:HDR-TH_12P-P2.54-V-M"
+				(at 0 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-Штырьковый разъем"
+				(at 0 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HDR-TH-12x1-2.54P_0_0"
+				(rectangle
+					(start -2.54 16.51)
+					(end 2.54 -16.51)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 15.24)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "HDR-TH-12x1-2.54P_1_0"
+				(pin passive line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 161.29 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0576596c-3a7b-48cd-8dd6-79ade32018ef")
+	)
+	(junction
+		(at 214.63 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0abc1d3f-72de-49bd-89a8-600be32323ca")
+	)
+	(junction
+		(at 125.73 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d4e0ec6-650b-47e2-ac55-17d85b02f34b")
+	)
+	(junction
+		(at 143.51 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d879931-eacd-4bcd-917e-3d29724a6965")
+	)
+	(junction
+		(at 161.29 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee54201-66ea-444a-9546-7f27fa6b8fc0")
+	)
+	(junction
+		(at 229.87 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef51b21-c5f2-48db-aaaf-bfa481bfcb93")
+	)
+	(junction
+		(at 125.73 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11cdcb55-1924-4617-9626-e4c7d9667488")
+	)
+	(junction
+		(at 212.09 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13671fdb-3089-4b13-829c-d4bc0c3bb862")
+	)
+	(junction
+		(at 125.73 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1547b652-896b-40e2-ad4a-7da32067f30e")
+	)
+	(junction
+		(at 143.51 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1783ace7-0255-4257-a535-16aa4edaf3c7")
+	)
+	(junction
+		(at 140.97 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ab946c-54b1-413e-acea-0cc6bc81818d")
+	)
+	(junction
+		(at 72.39 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fbca2d-34d0-4861-8175-f71c02367870")
+	)
+	(junction
+		(at 212.09 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19a4f1ce-fcb3-4d2f-8dbd-5afcf639604b")
+	)
+	(junction
+		(at 105.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "214d4979-49b3-4067-af38-7e424311d999")
+	)
+	(junction
+		(at 194.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27df4f04-6f2a-46f6-b808-f8873b43d103")
+	)
+	(junction
+		(at 143.51 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291b0df3-04ab-4e1f-b2ee-d2174f542ead")
+	)
+	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cbcd245-5979-4205-a304-9df4ba9d7f72")
+	)
+	(junction
+		(at 125.73 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31d8a859-4219-4d4e-837c-4b61161affd1")
+	)
+	(junction
+		(at 107.95 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3264b07a-4090-4aa8-9180-d36623342fd6")
+	)
+	(junction
+		(at 176.53 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "359678d0-b8d6-4dd9-ae2d-2230b0c92401")
+	)
+	(junction
+		(at 125.73 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35fea36f-5577-4b08-b4c3-9c31141182d7")
+	)
+	(junction
+		(at 196.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36a55e0e-64f9-4052-907c-2e111eeb83af")
+	)
+	(junction
+		(at 158.75 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a22e99c-e819-430a-8f20-8479eff6638d")
+	)
+	(junction
+		(at 125.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ace4899-3dbe-40a8-9a20-8e8a78a5a1fc")
+	)
+	(junction
+		(at 54.61 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbbb91e-79f8-4208-8dd1-0c9012b5b053")
+	)
+	(junction
+		(at 107.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fcc3dd2-b20a-47bd-af66-30473247272a")
+	)
+	(junction
+		(at 214.63 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418671c6-9992-4686-a6e3-b393bc76b836")
+	)
+	(junction
+		(at 194.31 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4423c0dd-6bdd-4edb-a407-f94b6a0c8cc7")
+	)
+	(junction
+		(at 196.85 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46d2d5b8-b438-4b34-b60e-1e35ec425360")
+	)
+	(junction
+		(at 176.53 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f2043a-5323-4d01-8e8b-87dc0ff03a0d")
+	)
+	(junction
+		(at 161.29 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4959f956-8b37-46e6-b7ca-35fd3182303f")
+	)
+	(junction
+		(at 194.31 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a419f8d-03ad-472f-bd86-4a4e124502b6")
+	)
+	(junction
+		(at 72.39 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0957a7-29e4-4062-888c-65186204ab55")
+	)
+	(junction
+		(at 229.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511dd871-bcb7-499b-8d78-424fc4a4531f")
+	)
+	(junction
+		(at 90.17 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "534fd849-1599-40ea-b722-f103bf09fde0")
+	)
+	(junction
+		(at 214.63 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d1932f-5474-4c29-a7d1-bf319058b43d")
+	)
+	(junction
+		(at 196.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55351b88-3f7f-4bf9-a96d-52239cdc5a28")
+	)
+	(junction
+		(at 176.53 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553b1bbd-25d1-4d94-ba4f-c108e118a8c8")
+	)
+	(junction
+		(at 143.51 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a9611d-9c36-4537-8127-c7ff3b21c4ee")
+	)
+	(junction
+		(at 143.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "593351d0-6d67-41e0-9858-df765d7ae865")
+	)
+	(junction
+		(at 140.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59674293-ce45-471e-8fe0-26b26a5d87a4")
+	)
+	(junction
+		(at 212.09 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0155cf-1553-4d3f-be77-13ef621a06cd")
+	)
+	(junction
+		(at 179.07 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a6581db-49ff-467e-8f1a-d51eb26670b7")
+	)
+	(junction
+		(at 158.75 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aa08280-c1e9-4288-b41c-b117fdeb3397")
+	)
+	(junction
+		(at 107.95 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bfe969f-9baf-4379-a863-269dd722d646")
+	)
+	(junction
+		(at 54.61 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7c22f1-458f-440f-82c3-78dffdf952ce")
+	)
+	(junction
+		(at 161.29 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60442878-04a5-42c3-8a52-ca55e3b77a89")
+	)
+	(junction
+		(at 179.07 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "607ac0ef-ba88-422c-a6a6-879939ec3a3a")
+	)
+	(junction
+		(at 36.83 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65860020-b271-4c8b-b848-108c6276f77d")
+	)
+	(junction
+		(at 229.87 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669b3570-6940-4f80-9334-f33261a1473d")
+	)
+	(junction
+		(at 229.87 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670dacfe-2f24-4672-a5e1-7c321ae151f0")
+	)
+	(junction
+		(at 158.75 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a79672-56d8-453e-b38c-09c3fae6f24b")
+	)
+	(junction
+		(at 54.61 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b370bc3-eeb4-40a6-95b7-b9df21a27923")
+	)
+	(junction
+		(at 194.31 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5e5cc2-c8dd-48cc-8bee-e8fdcce9e433")
+	)
+	(junction
+		(at 69.85 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725e75c9-9c31-41a2-b1ba-1900dbdce22f")
+	)
+	(junction
+		(at 194.31 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a5104d-06ea-4b5e-8982-9e5448b374cb")
+	)
+	(junction
+		(at 105.41 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7453b3e5-6bd8-49e0-8361-7bad510d2182")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75498e80-d75e-47d4-9463-723fa6d7d783")
+	)
+	(junction
+		(at 179.07 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75eb3753-47cc-438c-9a80-240c2ca8d745")
+	)
+	(junction
+		(at 69.85 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "766d877e-e144-4b2b-9ba6-689b2dad59e4")
+	)
+	(junction
+		(at 105.41 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7873e50e-8a4c-4c06-bef4-add266b4926d")
+	)
+	(junction
+		(at 123.19 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af53177-1ac2-4219-89e4-627b93977521")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bfdb525-087d-4df5-9e3f-6421d45b5dd0")
+	)
+	(junction
+		(at 194.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c879997-837c-4bf0-bf8e-4e81017cca51")
+	)
+	(junction
+		(at 87.63 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8249912c-59be-4f62-987a-47a7061d8eb1")
+	)
+	(junction
+		(at 158.75 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a0f711-21bf-4ef2-a158-fa68dfb885cd")
+	)
+	(junction
+		(at 123.19 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bfadb49-2499-4ab7-9cc7-c2c5e0045c29")
+	)
+	(junction
+		(at 214.63 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee89201-1ed0-4068-b7e5-5f63be5abfb9")
+	)
+	(junction
+		(at 140.97 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f6f72e5-ca25-42b5-93af-5d8e58cc3a3f")
+	)
+	(junction
+		(at 125.73 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ffbf65c-8d73-4db9-84b0-6b278a2983f2")
+	)
+	(junction
+		(at 158.75 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90823ea8-ba2e-4853-a41d-f9c3cafc5525")
+	)
+	(junction
+		(at 194.31 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9701f4db-796a-4a21-8d93-050b526c647a")
+	)
+	(junction
+		(at 161.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99817430-39a9-4dbf-8a0e-e8bc7a59533c")
+	)
+	(junction
+		(at 214.63 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb3a2a2-0b4b-4e54-8e7e-5af45ac13590")
+	)
+	(junction
+		(at 161.29 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb54194-12f3-438f-b4e3-f2b6e16181f4")
+	)
+	(junction
+		(at 90.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ebc2122-5307-4a66-a580-07528e48f332")
+	)
+	(junction
+		(at 212.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0635720-c32b-44c0-b273-4fcc01f3dcbd")
+	)
+	(junction
+		(at 212.09 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e61172-1b08-4591-b4de-a3b9997c0556")
+	)
+	(junction
+		(at 87.63 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ab90ef-df4a-4dfa-83d0-9009109a2a4d")
+	)
+	(junction
+		(at 212.09 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3db8411-fb92-4ac5-9b86-c3868be77f44")
+	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a72c6e88-8f8b-446b-9268-5a67b29eeed7")
+	)
+	(junction
+		(at 176.53 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7586dab-c6eb-4d32-ab93-d5cc5748eb5c")
+	)
+	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5b1806-90b2-48f4-9ad3-a311e179c8e4")
+	)
+	(junction
+		(at 140.97 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad51623a-ea6d-4df0-8046-f43e58a1b033")
+	)
+	(junction
+		(at 105.41 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8ad1d1-c038-4eda-8855-121966c739d6")
+	)
+	(junction
+		(at 52.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afac1592-f92f-45d7-ae6b-6b1be5fa121c")
+	)
+	(junction
+		(at 196.85 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2050cd4-cd6d-433f-a6d3-4fd96d34c11d")
+	)
+	(junction
+		(at 107.95 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d681b6-6082-447d-b83b-2f1c12d4846f")
+	)
+	(junction
+		(at 196.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b42863b5-f266-4fe6-b2c8-b7afd77830bd")
+	)
+	(junction
+		(at 176.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b64cc6c8-87ac-4582-baa3-97573e54652f")
+	)
+	(junction
+		(at 158.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84d78a4-a4c3-4cc4-9374-614def32a1e7")
+	)
+	(junction
+		(at 72.39 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9acc4e8-4c54-4d4a-89b5-f45705cc943d")
+	)
+	(junction
+		(at 140.97 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc600657-4a50-47b9-9438-770debabb5fa")
+	)
+	(junction
+		(at 143.51 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6d6d7b-d657-49fb-b4e7-531cdb7f7ed7")
+	)
+	(junction
+		(at 54.61 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda6b3cb-ad34-403b-bb63-7ff15013290d")
+	)
+	(junction
+		(at 179.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be816e86-a350-4a40-b1ac-5a5d36a80806")
+	)
+	(junction
+		(at 105.41 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0700cac-b7d3-4c37-ac66-0dd85d78f9c9")
+	)
+	(junction
+		(at 143.51 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c856965d-550d-4261-85c8-e5f445277af9")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c85a6e79-f758-4c61-8267-6c2c6a3b5f56")
+	)
+	(junction
+		(at 196.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caf6f7b8-10ba-45b4-85c0-0513b76b569b")
+	)
+	(junction
+		(at 212.09 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb4f4711-e527-4af8-a465-bfb8a791e7e3")
+	)
+	(junction
+		(at 87.63 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7f9859-6f99-40e4-a496-dab739a8df8d")
+	)
+	(junction
+		(at 194.31 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8d1f06-5f7c-4c8b-98a9-905a711796a2")
+	)
+	(junction
+		(at 229.87 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfd6c476-85e7-48d4-9340-6dfce7d78933")
+	)
+	(junction
+		(at 176.53 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a4de8d-0a46-427d-918b-f511f81f8435")
+	)
+	(junction
+		(at 161.29 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c362eb-de30-408c-b7ff-6d9aa33b3950")
+	)
+	(junction
+		(at 214.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73c7fc7-7b6d-4c86-a11a-c7a7fa27a839")
+	)
+	(junction
+		(at 229.87 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d779f258-917c-4d10-8e33-300a1157e8de")
+	)
+	(junction
+		(at 90.17 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da36ddcc-6131-472e-97be-1c5d8eeb6c22")
+	)
+	(junction
+		(at 87.63 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd51aee4-0398-44fd-b74d-0a5d174d6e2a")
+	)
+	(junction
+		(at 107.95 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e32915c0-8f7d-42aa-8e3d-1bc6a5a8d618")
+	)
+	(junction
+		(at 158.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b78bc8-0507-4786-9611-735e7c1fadfc")
+	)
+	(junction
+		(at 87.63 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c5a02a-18d8-43a5-aed6-38e7c5633a04")
+	)
+	(junction
+		(at 179.07 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5a806d3-9837-4453-814d-5987dadd1cac")
+	)
+	(junction
+		(at 214.63 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8dec591-1beb-4fa6-96da-078307b7ce1a")
+	)
+	(junction
+		(at 36.83 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e951418d-42f1-4080-9f53-456655c40cf0")
+	)
+	(junction
+		(at 176.53 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea47fb8f-ac8f-4969-aafc-1847bc8c1384")
+	)
+	(junction
+		(at 196.85 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efdb884d-e397-48d7-840d-aab5b534d32d")
+	)
+	(junction
+		(at 176.53 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a2830b-5740-402b-8d7d-cc47979ceda7")
+	)
+	(junction
+		(at 158.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e0afdb-6999-4b32-9617-82486099adbf")
+	)
+	(junction
+		(at 123.19 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e92dd1-bb49-4034-904a-c75dee208b9d")
+	)
+	(junction
+		(at 123.19 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5061e2a-c88a-4c13-9fde-f4b90360d50b")
+	)
+	(junction
+		(at 229.87 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93d593e-717b-4a34-8ad7-798ccdfcc1f3")
+	)
+	(junction
+		(at 212.09 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97ae4ca-13e2-40ab-9b66-87a54aab404c")
+	)
+	(junction
+		(at 229.87 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd0bda21-8b1e-4ac2-9cd4-9cfb152e6ec3")
+	)
+	(junction
+		(at 90.17 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdc16c17-85d2-4d39-b025-c8c92732fd04")
+	)
+	(junction
+		(at 123.19 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff9c84bf-8a8d-465a-94f4-17060c9d89f9")
+	)
+	(no_connect
+		(at 251.46 80.01)
+		(uuid "22113d5a-cc25-4415-9da5-7a6c419ea426")
+	)
+	(no_connect
+		(at 251.46 82.55)
+		(uuid "79f96a0f-1aef-4b1e-8e82-1652737d96d7")
+	)
+	(no_connect
+		(at 251.46 85.09)
+		(uuid "e3cedca5-867b-42d0-bb37-b33d6fecb429")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 123.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dca874-48f2-432d-9901-0c46fef2a76b")
+	)
+	(wire
+		(pts
+			(xy 227.33 92.71) (xy 229.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e0f053-53d7-45a9-bdbd-3357a4033f5a")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a502c0-c2c5-4e65-9af2-ce0ab575eae3")
+	)
+	(wire
+		(pts
+			(xy 176.53 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03935f37-2511-439d-bc65-4f6490f8e834")
+	)
+	(wire
+		(pts
+			(xy 105.41 39.37) (xy 105.41 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b0e1b8-230f-467b-9812-cb4eda5d11ad")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fb6c4f-7208-4d8c-8cf8-e02643302fe8")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0580fbb4-ea07-4d54-95c0-ee7bc4224028")
+	)
+	(wire
+		(pts
+			(xy 238.76 57.15) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05db58b4-b746-48e4-83bb-522f487dd2c8")
+	)
+	(wire
+		(pts
+			(xy 227.33 77.47) (xy 229.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0685897c-5c01-478a-bd19-aab09b98d4cf")
+	)
+	(wire
+		(pts
+			(xy 181.61 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078b0354-1f8c-43b9-8fe6-c167c77695eb")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07aab709-aed7-43cd-b603-07b12baa4e89")
+	)
+	(wire
+		(pts
+			(xy 69.85 54.61) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080c0f61-5531-424f-afd8-8b4734511919")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088e85c7-ebb3-4614-8aff-2e3a96ffbeef")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0972eb8f-d7e9-4b45-84cc-e6fd5f60c029")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a44099e-e96a-4615-beaf-a07c212da969")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b30bcc2-2db5-44d4-9824-101556dc5e73")
+	)
+	(wire
+		(pts
+			(xy 229.87 54.61) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3b4a3b-05c1-46ad-b51e-ec7f461536bc")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c212399-ea29-45dd-a44b-0d0859459b80")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbc5635-b98f-4c74-bb3c-04b83ee00520")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e41afcd-e890-4575-bb01-370e6a128d8e")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e92e335-a508-40b7-8487-d3603faaa966")
+	)
+	(wire
+		(pts
+			(xy 161.29 46.99) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4976f0-3f12-42a8-b112-2a1e8b555eb5")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f594921-7ac3-4380-9d63-dc8e1fd9a0e7")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 54.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104ca4f7-cc9b-4172-b92f-d2857f570b59")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10af75fe-2619-4af7-bfc1-0e9dbb059ba0")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13432b59-6d79-46c9-b936-196c53d4781f")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e31329-22f8-41f9-87d9-b450a81f90d1")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140948d9-d82d-41e0-8cc3-cb79af2d37fc")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143c480f-20ae-4e49-bae8-3b7589f0f91c")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a561f5-f8f0-4d31-80e3-7726628dfd85")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b7a529-cb25-4e7b-9892-6427cbbc4727")
+	)
+	(wire
+		(pts
+			(xy 194.31 49.53) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15416936-fd3e-410c-ac56-1fe0e76ec5dd")
+	)
+	(wire
+		(pts
+			(xy 209.55 39.37) (xy 212.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ebaddf-a605-42b6-8340-5771a712a2af")
+	)
+	(wire
+		(pts
+			(xy 194.31 54.61) (xy 194.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1708fa86-910f-4edf-a5d1-04a7a3c33245")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172e1aac-a56f-41bc-936f-db7eb3c0ff83")
+	)
+	(wire
+		(pts
+			(xy 212.09 64.77) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b63e9f-6744-447b-b452-c8fce7405507")
+	)
+	(wire
+		(pts
+			(xy 105.41 62.23) (xy 105.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183fa15f-2463-4848-9017-c76fd67bfb74")
+	)
+	(wire
+		(pts
+			(xy 227.33 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184284ed-6e0e-4442-a831-203a0b7b05b3")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 251.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1904af77-24a1-41a7-8297-a964af7eb90b")
+	)
+	(wire
+		(pts
+			(xy 179.07 62.23) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19060729-0c97-455b-a55a-f2f611ff35d4")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a976a17-d0e9-4679-9c8d-6d2d3a997c6e")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 194.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba254a0-5d13-45bf-96be-451068ea2023")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf0eee5-996d-4338-a25e-a22f2754cbac")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 123.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce28b05-88b1-4fb8-b0d6-f5c3d3c4b992")
+	)
+	(wire
+		(pts
+			(xy 128.27 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9f3a5e-429e-4ffd-b6fb-d27a0e3e644d")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dea2636-5768-47f3-be1f-2173a4c6119c")
+	)
+	(wire
+		(pts
+			(xy 199.39 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec35f10-96ac-4b39-b203-18933d1b8a36")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 36.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2012e259-5c73-479f-ab22-adb7c4a07197")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202b4599-4dc8-4260-9e07-9c3ccbc67073")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cbfc3f-fd71-4ff2-9630-be917627b955")
+	)
+	(wire
+		(pts
+			(xy 238.76 87.63) (xy 229.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2191ad7e-9b7b-4207-ab93-5f54419b286e")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b3009f-b762-4999-aa54-0cc0484fdae4")
+	)
+	(wire
+		(pts
+			(xy 36.83 62.23) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228d4478-d4ae-4050-9c6a-8cbe85beca2a")
+	)
+	(wire
+		(pts
+			(xy 194.31 41.91) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c96199-c305-42cd-83e4-db40760e8cb2")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2431492f-6964-446c-8100-f499fe135a01")
+	)
+	(wire
+		(pts
+			(xy 209.55 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2460eff5-917b-485e-8edd-9ce555f73f7c")
+	)
+	(wire
+		(pts
+			(xy 191.77 54.61) (xy 194.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570952b-0501-4e16-8412-e6adbdc3ed07")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25899972-7cad-49e5-8fc7-895c1ca0b88f")
+	)
+	(wire
+		(pts
+			(xy 194.31 77.47) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259a6926-f1a9-4848-bcee-9821d12a6ee7")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d8583e-72ba-46fa-8481-1d0ad36cf174")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263e45b7-6c93-41dd-80b4-0a77307a85fd")
+	)
+	(wire
+		(pts
+			(xy 146.05 46.99) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2831d3fc-5d42-4032-b4ae-eb9b8c12f902")
+	)
+	(wire
+		(pts
+			(xy 217.17 46.99) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bdbba0-e6f3-4a85-a15b-60a7963c3675")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 87.63 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2997f170-0525-45ee-8c1c-876ade330b79")
+	)
+	(wire
+		(pts
+			(xy 107.95 62.23) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ad13eb-47e2-4dad-b3e7-f60830ccf7d6")
+	)
+	(wire
+		(pts
+			(xy 176.53 46.99) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4461a5-d984-435c-9490-53fff7db597b")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9362d4-3e72-4451-955a-32852b0c1c19")
+	)
+	(wire
+		(pts
+			(xy 181.61 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c097a5d-dac2-4cb9-ad0e-bde2dafa4081")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d40c132-7640-4a78-912e-fd56cc2a50c7")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc52fc1-a553-4a51-b598-482a216aa64e")
+	)
+	(wire
+		(pts
+			(xy 229.87 92.71) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e46e954-f66e-4cba-a8f5-594257c9653f")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e91f9a4-a7e7-4038-9b85-d1a0c8e1c757")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd7720a-8040-46e7-9a6e-6db5431ddc12")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 212.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd830f8-b23d-433a-8a60-16635bcdd9e8")
+	)
+	(wire
+		(pts
+			(xy 173.99 39.37) (xy 176.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff72015-2870-489f-89a1-9e32469e22ac")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30492398-0eb2-4666-ab4a-ebd94d3a78b8")
+	)
+	(wire
+		(pts
+			(xy 72.39 46.99) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3197b1c8-1ebe-42a3-b217-56ee7654a83c")
+	)
+	(wire
+		(pts
+			(xy 120.65 39.37) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b45b2a-e6c0-45ed-9837-f1b7ebfb46c5")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e226cf-063f-4cf5-8abb-a1b9b8f45f93")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331f12e6-db99-4ffa-9fc5-14740d55f611")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a0cd92-f6c9-4daa-b039-4960b5bb4da5")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b64449-e356-4d69-92b5-32a42dd1b4eb")
+	)
+	(wire
+		(pts
+			(xy 212.09 49.53) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ee2624-8d99-468e-a75b-04d130dd7ca0")
+	)
+	(wire
+		(pts
+			(xy 191.77 69.85) (xy 194.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364727f8-fcda-4099-9e0c-b98135592c8a")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37213a79-4d2d-4345-98b0-fe45cd133bed")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 123.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ba1475-7af5-4d75-8cf9-097f5f864523")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38665bf1-e687-4b1c-94d0-abd1c9558999")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fbab38-164c-4c04-8b68-9716ba47f24c")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3937b06e-6196-4ac2-a70a-0a29155a4b81")
+	)
+	(wire
+		(pts
+			(xy 176.53 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b845cad-2a7a-4709-a4b0-779956281f38")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b973767-d5e0-4438-add0-669ef666b861")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba39094-6f9b-4b88-b948-42044ffe54cd")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 87.63 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4a2282-db30-429e-81fd-3a2aa22c1c8d")
+	)
+	(wire
+		(pts
+			(xy 241.3 74.93) (xy 241.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3daacf3c-c957-43d3-90cb-cf330cd49e54")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfb8279-ce64-433c-ba95-2f6a8108c491")
+	)
+	(wire
+		(pts
+			(xy 52.07 54.61) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e29de47-580b-4fe9-9a71-d38800041d27")
+	)
+	(wire
+		(pts
+			(xy 69.85 64.77) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea428af-a646-4e31-8aec-6bda2296557d")
+	)
+	(wire
+		(pts
+			(xy 87.63 57.15) (xy 87.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed8ad65-89d2-4146-8626-ea65168cefee")
+	)
+	(wire
+		(pts
+			(xy 161.29 39.37) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6f4e31-37ba-4c18-b989-eb30ecbfdedd")
+	)
+	(wire
+		(pts
+			(xy 238.76 41.91) (xy 229.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f70cfc5-012b-4586-ade2-d86361145922")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40047d47-8c32-4ab3-9e88-eaf6b47cd1f9")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408eb894-6962-4d53-a102-8a3899215c21")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d12e95-956c-4625-9147-bb5f225e31e5")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41647847-2376-4d90-b1f1-192b1b900dc5")
+	)
+	(wire
+		(pts
+			(xy 173.99 46.99) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c604b8-6248-4389-994a-b5347aa91426")
+	)
+	(wire
+		(pts
+			(xy 158.75 54.61) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cf51ff-6e6c-4fb5-8540-fe28c04122be")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439472d8-4bc5-4a1b-bf1c-293f095e6920")
+	)
+	(wire
+		(pts
+			(xy 191.77 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439fa849-d624-4aea-8f18-b819e4695ddb")
+	)
+	(wire
+		(pts
+			(xy 67.31 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a0ece2-0913-43ab-9aea-1af6c382e2b5")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ff30f9-d89e-47a0-b4a3-7f42004778a5")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4535605a-3967-44ee-84d1-d8551f4dfbd7")
+	)
+	(wire
+		(pts
+			(xy 143.51 54.61) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d9aad9-fd62-4f61-a8ab-68abce59ed8c")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478250cf-c026-47ca-ae80-50462a858235")
+	)
+	(wire
+		(pts
+			(xy 229.87 69.85) (xy 229.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a9f6e0-7071-45d0-8fc1-f7a27e54d675")
+	)
+	(wire
+		(pts
+			(xy 57.15 54.61) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bcd6b5-306e-4d51-8eca-23007e5525f7")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.85) (xy 229.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49be4c89-e1e6-4c58-89e1-abaad18fa5f1")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 214.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5d5edf-bf17-41b5-9b9c-49f73854bebb")
+	)
+	(wire
+		(pts
+			(xy 233.68 67.31) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac33f4c-0aff-4291-91cc-49c1feccab02")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d90eca1-209d-4306-9971-ef250c17df2f")
+	)
+	(wire
+		(pts
+			(xy 236.22 49.53) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4ecde3-b55f-4b22-a8b5-dd925d98058f")
+	)
+	(wire
+		(pts
+			(xy 69.85 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f70ba4d-0f37-4894-b548-1810c3108c6d")
+	)
+	(wire
+		(pts
+			(xy 199.39 54.61) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5022665e-d1c8-4eaf-be06-a8f9f838474b")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5045cab8-fa37-4bcd-862b-32891722de03")
+	)
+	(wire
+		(pts
+			(xy 173.99 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50838cd4-e9a5-4ef6-8e83-b8b66b3e4fc4")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5110c8c2-a291-48be-bab5-b7b568d5202b")
+	)
+	(wire
+		(pts
+			(xy 217.17 69.85) (xy 214.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bb063a-85e5-47fb-a28a-b7b63c853e90")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fa9cae-a1c0-4c78-ae51-de5f0dda4185")
+	)
+	(wire
+		(pts
+			(xy 217.17 62.23) (xy 214.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5207e698-1b47-465f-94d1-ba9a5032f4ab")
+	)
+	(wire
+		(pts
+			(xy 229.87 77.47) (xy 229.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52232230-6af6-4541-a406-1492235cda65")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e10d80-f217-4ff3-b270-930889213d54")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532fb978-c9cb-4b63-b15c-718057b1ede7")
+	)
+	(wire
+		(pts
+			(xy 49.53 62.23) (xy 52.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541c80bc-1754-4ff5-80b7-25e32d656956")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5425f4cb-8a6d-4bce-abe1-46e2e6b13f84")
+	)
+	(wire
+		(pts
+			(xy 163.83 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55656359-3a58-4a1f-b399-daa80c83a814")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56697a6c-b4da-4b40-8767-b1592dee6d58")
+	)
+	(wire
+		(pts
+			(xy 39.37 69.85) (xy 36.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bb811e-3759-4d27-9a12-0c39e5becca1")
+	)
+	(wire
+		(pts
+			(xy 54.61 62.23) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5797cf63-e501-48f6-b882-aa4fa0c88f61")
+	)
+	(wire
+		(pts
+			(xy 229.87 85.09) (xy 229.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad853b6-8e2d-4786-bdf7-989700bd1759")
+	)
+	(wire
+		(pts
+			(xy 229.87 95.25) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adcf9bc-ad40-45ab-9296-d29e39ebd0f5")
+	)
+	(wire
+		(pts
+			(xy 57.15 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c87beb1-f5d3-4128-8467-0b999c8f8395")
+	)
+	(wire
+		(pts
+			(xy 176.53 39.37) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d363f4c-ed6a-4cc2-a504-0fbd4186233e")
+	)
+	(wire
+		(pts
+			(xy 176.53 54.61) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edb70be-abe8-40d1-afe8-aac72aeb3dfb")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 123.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f184e1b-1451-433f-a06c-d94e47b4b0df")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fee99f7-3917-44f6-bc2d-b2e02ed670b8")
+	)
+	(wire
+		(pts
+			(xy 87.63 39.37) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601d623e-9626-41d5-9046-ef6b19caf087")
+	)
+	(wire
+		(pts
+			(xy 87.63 49.53) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6054cf63-f91e-4778-a061-6c069006d000")
+	)
+	(wire
+		(pts
+			(xy 120.65 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bdeead-502c-44fa-b43f-413d3f896f4a")
+	)
+	(wire
+		(pts
+			(xy 229.87 72.39) (xy 212.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60da4803-9cfa-4d58-b4a2-663b83674eae")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61897ca7-c173-4efa-9460-82d3760503af")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e8c908-1e8e-4d7c-aef4-83d4213b3848")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aa580f-794e-402e-b5a6-68273e193ca2")
+	)
+	(wire
+		(pts
+			(xy 121.92 110.49) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e0696c-aaf7-47ee-8e6f-1e3d9173eac3")
+	)
+	(wire
+		(pts
+			(xy 212.09 72.39) (xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a98d38-85bf-40f9-8fc1-609008987079")
+	)
+	(wire
+		(pts
+			(xy 233.68 72.39) (xy 229.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65438497-5d4b-4a3e-90d3-db57f0314993")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a7e0ac-ad6e-4a0e-b02d-cfb3142a88b7")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d700e4-58ac-472b-a0e5-1a64b7a305ee")
+	)
+	(wire
+		(pts
+			(xy 229.87 49.53) (xy 212.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664558d6-ee95-4ec3-83c8-55b96b6f267f")
+	)
+	(wire
+		(pts
+			(xy 214.63 39.37) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c84ec9-5978-4e40-ad14-289812319db6")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66efbf0c-1530-4907-8683-0812ece318c6")
+	)
+	(wire
+		(pts
+			(xy 92.71 46.99) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67010698-3116-49b1-8239-71722c42e1e4")
+	)
+	(wire
+		(pts
+			(xy 161.29 77.47) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6732796f-98bc-4c3f-a376-faeddec0d3a6")
+	)
+	(wire
+		(pts
+			(xy 233.68 67.31) (xy 251.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c88188-c59e-4a21-8a87-67ceef5dd3dc")
+	)
+	(wire
+		(pts
+			(xy 199.39 77.47) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68218e73-7ee2-4543-861d-4f2a45f532f6")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 214.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6839c069-5759-44e3-b5e4-566b9c471808")
+	)
+	(wire
+		(pts
+			(xy 158.75 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c0d9b1-ba5f-49a6-9b37-492e91193fad")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f82a55-ed58-4b3e-b9a9-f2ed323cd716")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a62e160-d86c-47d7-9b8a-0a27a2f849c1")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7ca1ab-cc59-4ddb-bff4-7c8db46db141")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2f7c3a-17f9-4305-a97a-e83d74bb0e07")
+	)
+	(wire
+		(pts
+			(xy 110.49 39.37) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf071c7-c56d-48d1-8f1d-a64c3d246d4a")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3bbff9-2208-4000-b739-e0cc4637f23e")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c518955-5b09-48fa-873d-02f4ec23755b")
+	)
+	(wire
+		(pts
+			(xy 156.21 92.71) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d05a828-3c62-4898-8d78-d5af46813e8f")
+	)
+	(wire
+		(pts
+			(xy 87.63 64.77) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d25f127-a92a-42f1-b61e-83aa714526a8")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8c64b5-b465-4b29-9cbb-c0159748f2a6")
+	)
+	(wire
+		(pts
+			(xy 138.43 39.37) (xy 140.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4b172d-75d1-4ae6-b29b-58c18f586aae")
+	)
+	(wire
+		(pts
+			(xy 176.53 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8bcfec-52d5-4d36-83a1-d7d18443b86a")
+	)
+	(wire
+		(pts
+			(xy 125.73 77.47) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed21553-0cd3-4351-ba02-8639f6b938ca")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8a74f0-3852-4690-835c-854e12dd3025")
+	)
+	(wire
+		(pts
+			(xy 212.09 95.25) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e968e1-d738-4e32-b678-c92ed0f94180")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a13373-84ea-4add-853f-a63448887879")
+	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72672a9c-38b7-4d41-9879-fac8fb3e3f61")
+	)
+	(wire
+		(pts
+			(xy 217.17 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c5160-6032-451b-b314-1a9a19f8808b")
+	)
+	(wire
+		(pts
+			(xy 194.31 64.77) (xy 176.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749f8f21-c1c1-438c-8866-bb083c2d1f8b")
+	)
+	(wire
+		(pts
+			(xy 199.39 46.99) (xy 196.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7528521c-141f-4a85-a570-9450bc51adcf")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7538b212-13c2-4f55-950e-ee832680032f")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75935552-6ba5-4d93-9484-b7d79b46a124")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76159090-7c9b-4017-bc8f-e4e5a24fc828")
+	)
+	(wire
+		(pts
+			(xy 194.31 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76848df1-691e-4f5f-aa0f-5aa06cf70fbc")
+	)
+	(wire
+		(pts
+			(xy 158.75 39.37) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ee5f74-8749-4e3e-a1c6-f714d9b438ae")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785ba174-6627-4d14-af1c-4a8565a09f28")
+	)
+	(wire
+		(pts
+			(xy 90.17 46.99) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7961de76-bb47-49a8-93f2-3f840816fa12")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 229.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c225aa0-d9a7-48ab-83ac-d77cf5f3423f")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd7f125-b8e4-43f6-88da-8e44427381dc")
+	)
+	(wire
+		(pts
+			(xy 227.33 54.61) (xy 229.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eba58e2-924e-4b90-8fa2-840e22c2e8d3")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 36.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec827e1-f1e8-4287-91e5-4a50e2a094a0")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f03bbfa-c01e-49ab-952e-f22082e65892")
+	)
+	(wire
+		(pts
+			(xy 229.87 62.23) (xy 229.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0645a1-4e82-45ac-9b0c-ab9949ef7619")
+	)
+	(wire
+		(pts
+			(xy 67.31 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f142fc2-9697-44df-8c01-82cd95b8c43d")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f24cc33-7484-4b6d-8a1a-feb14fd3a882")
+	)
+	(wire
+		(pts
+			(xy 156.21 39.37) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f40a1c8-e051-49ba-a0f6-b0d1f6b6faa8")
+	)
+	(wire
+		(pts
+			(xy 227.33 46.99) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6b74c5-c873-4510-9d56-cafc94e285e7")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a4419d-2283-4375-b180-a8b129ce7510")
+	)
+	(wire
+		(pts
+			(xy 140.97 39.37) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80efd060-c886-4204-9b3f-6158d1879c9b")
+	)
+	(wire
+		(pts
+			(xy 125.73 62.23) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8139837a-da56-4b1b-94e8-8ccb92db0a26")
+	)
+	(wire
+		(pts
+			(xy 191.77 62.23) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814004bd-a697-42d3-a41b-9795b486d8d6")
+	)
+	(wire
+		(pts
+			(xy 243.84 77.47) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fcc23c-6147-45fd-9a8c-f242373115fd")
+	)
+	(wire
+		(pts
+			(xy 52.07 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8287d753-4ae1-4e8c-8d13-30480b3068cc")
+	)
+	(wire
+		(pts
+			(xy 194.31 85.09) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8319a266-b888-463f-aa4b-06ad13e56620")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843b3e8a-6d7f-4f98-931f-6815911d2465")
+	)
+	(wire
+		(pts
+			(xy 229.87 87.63) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8511a228-2d03-44a6-9416-fc6bcad72964")
+	)
+	(wire
+		(pts
+			(xy 212.09 41.91) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d3559c-3442-461e-82bd-b44733387129")
+	)
+	(wire
+		(pts
+			(xy 236.22 59.69) (xy 251.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8687a9af-1de7-44dc-93cc-6bd4b904429e")
+	)
+	(wire
+		(pts
+			(xy 238.76 72.39) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87094f74-1a9b-4b6d-83bf-4c7e7c4d07a7")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b88dcd-56ff-4fed-be52-17f92273913d")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ca91a4-1b07-4f76-8011-7f308a70ac4c")
+	)
+	(wire
+		(pts
+			(xy 196.85 46.99) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ea0400-ec5e-46fa-b499-20d4739a3a65")
+	)
+	(wire
+		(pts
+			(xy 123.19 49.53) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8835700d-d38a-45ad-aeca-fafabf5cde90")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89895f03-8327-4c4b-a172-965823498c1b")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 140.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a99581a-b9eb-43b3-b412-c650c2f6f4de")
+	)
+	(wire
+		(pts
+			(xy 72.39 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab9106f-2416-41f9-b9c7-9b6d40bcb403")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 105.41 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9d1bbf-d412-43bd-8689-fee50c98c1d0")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c30e666-5ee4-4935-939b-fe48ab0fe7db")
+	)
+	(wire
+		(pts
+			(xy 241.3 74.93) (xy 251.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd1a733-abd5-4f65-8b01-2c20e59491e2")
+	)
+	(wire
+		(pts
+			(xy 181.61 62.23) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d217e02-4128-4b16-98d5-2cdef3bb9ce5")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4cfab7-1331-4ec3-80eb-b6cdfe2896e3")
+	)
+	(wire
+		(pts
+			(xy 132.08 100.33) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb07c80-794a-4cde-b8bd-76cfe94a7534")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffd7a50-41c1-4c5c-994f-efef54daa2a6")
+	)
+	(wire
+		(pts
+			(xy 128.27 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904d9aa8-a000-47f6-8871-7e17c97d90eb")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c1c6de-75e8-4193-b033-75869609ef4f")
+	)
+	(wire
+		(pts
+			(xy 212.09 62.23) (xy 212.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cdeb3c-fa6a-4cd9-b414-2ef5f9d79857")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e2ee88-7c4a-412a-974f-3116bee2bb7a")
+	)
+	(wire
+		(pts
+			(xy 146.05 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937223f5-9bad-445c-9880-fc880bacaada")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b7f755-2645-4aa3-a893-176e94a85bcb")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93be7610-7da0-4f12-b293-014c406c9421")
+	)
+	(wire
+		(pts
+			(xy 54.61 110.49) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945de225-85d8-40c7-a87f-f34f1af9bc66")
+	)
+	(wire
+		(pts
+			(xy 212.09 77.47) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ba0ad6-e558-4784-8d99-dcb9b306651c")
+	)
+	(wire
+		(pts
+			(xy 194.31 62.23) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9527f06c-c415-4c23-bd74-3b76a6d814ce")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959f9776-a677-41f8-b775-c87c46ceb8cb")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c983b9-a583-4890-9578-3380aa4e46fa")
+	)
+	(wire
+		(pts
+			(xy 181.61 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dba622-ed4d-482a-b33b-4a1ba49e5b38")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9637723d-2586-433d-9076-1fcfc969c058")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97120984-f113-439e-8be1-9722b15a8e2a")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 105.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971b47c0-aaa6-4448-b52d-0a1cf69246d6")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cc2fe6-b326-4250-992d-6530770c8ed9")
+	)
+	(wire
+		(pts
+			(xy 236.22 69.85) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98665717-d167-46f9-ba38-ed4aa45c472c")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fbeb22-a6b0-429b-b803-e5b6f6943473")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fd51ed-17bd-4dd9-83af-dc85806f3531")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99010f5f-3421-4d89-9039-426230a0e442")
+	)
+	(wire
+		(pts
+			(xy 74.93 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990cc588-fb74-48b4-8784-2e23bdd0baae")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8891ec-1b9c-401a-82bb-9093df88206f")
+	)
+	(wire
+		(pts
+			(xy 191.77 39.37) (xy 194.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b59862a-8cf7-4588-926e-15486ec59184")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfdc3ea-e39b-4ba1-8e08-b77566689ab5")
+	)
+	(wire
+		(pts
+			(xy 212.09 69.85) (xy 212.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1e3b2f-75ef-4770-8ac1-2c1b57cd1087")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c97b605-e8e8-4ec8-a2a9-42cf42bc8c5a")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d262a85-f73c-4723-93a4-aec3cfdbfc04")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5c9062-cdaf-4e47-b9bd-ccecae1d44a2")
+	)
+	(wire
+		(pts
+			(xy 92.71 39.37) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d859cb9-bc2f-4057-82e6-7636ab2acbcf")
+	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dac1909-6f3c-41c1-a13d-e7242a1e1de8")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd05d32-8c72-409e-9772-34ae453c23e9")
+	)
+	(wire
+		(pts
+			(xy 214.63 46.99) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea308da-2083-4aec-be14-c51a393812ae")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eeac10a-247c-4152-84a5-b32aeaee8707")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0f7c94-e3b6-41bd-808a-b4ae2121c785")
+	)
+	(wire
+		(pts
+			(xy 105.41 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1395437-e2a0-42c3-8919-cacb29907d3a")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c2da28-75cf-40af-8cd4-3f3d7fc73337")
+	)
+	(wire
+		(pts
+			(xy 57.15 69.85) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a333f8be-56f9-49ee-af11-16f06df4a9eb")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a340c74d-f3c6-471a-8526-24d14e418272")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a375cb9c-ceed-48b3-b577-dcf876d1c7ec")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38d1c7d-044f-4310-860a-3136bffc0acf")
+	)
+	(wire
+		(pts
+			(xy 125.73 54.61) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fd12e0-6eff-4cd5-963b-975878afa797")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 229.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b9f98d-19d2-4ea5-9f66-69449556d757")
+	)
+	(wire
+		(pts
+			(xy 214.63 62.23) (xy 214.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a653f0a4-fdde-47df-9c66-18883e5c8aea")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.99) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ddbc5a-286b-4b7d-9f83-3bbe69a41443")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 139.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72c2817-4b18-4a8c-aade-d8b301d71aed")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e605d9-5d50-463f-bc0f-c7d83ad5a022")
+	)
+	(wire
+		(pts
+			(xy 214.63 110.49) (xy 214.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fea20e-983f-42cf-83ab-a0f1cbff97e2")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9690d4a-376f-4415-baa2-1bb032678034")
+	)
+	(wire
+		(pts
+			(xy 194.31 69.85) (xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3f057d-10e6-47cc-b022-2fcd0945a1eb")
+	)
+	(wire
+		(pts
+			(xy 173.99 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad901557-919f-40cc-ae70-2810e814bc90")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedfc039-a31c-4b1c-9278-45aebbecd95e")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3aee9d-89cb-4a7d-87f5-1e83b7d424d2")
+	)
+	(wire
+		(pts
+			(xy 214.63 92.71) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5cbf26-00c4-4bff-8098-1f2dfa91eb25")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04d9e6d-4eef-4cf3-9fbc-d30b7bcfb1b3")
+	)
+	(wire
+		(pts
+			(xy 229.87 64.77) (xy 251.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fd7c9c-eb5f-43ef-817d-961f759fe6b6")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35a2798-aa0d-4a92-a150-f49aca1b52c5")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c472c0-416f-4739-9ac9-73eefa257287")
+	)
+	(wire
+		(pts
+			(xy 196.85 54.61) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4419d0a-639e-4644-a274-c8edbd5ad60c")
+	)
+	(wire
+		(pts
+			(xy 87.63 54.61) (xy 85.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b642b2ba-2dd6-461c-89db-d8659f342014")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a243d5-57f0-4f0b-a115-4c09261d9aa6")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75babda-642f-412a-8037-36ab4ba0276f")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7954015-69af-41cf-ba8d-13b8f1460796")
+	)
+	(wire
+		(pts
+			(xy 199.39 69.85) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bbec39-ce02-4a46-a100-626c92dbbb37")
+	)
+	(wire
+		(pts
+			(xy 179.07 54.61) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b831b23e-5ef0-4441-8314-b61cbf436b8d")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dfe59b-c99d-4dce-8da5-038760674825")
+	)
+	(wire
+		(pts
+			(xy 194.31 39.37) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93bb6c1-f3a1-4b21-b05d-978cbc908ab7")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba187618-7a70-4464-8511-1ae9d223e1f2")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf52df3-08fe-415e-a622-ed5a7ae2eb56")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1981ce-c512-4428-b4c4-774c083f5c87")
+	)
+	(wire
+		(pts
+			(xy 36.83 69.85) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc49bddf-0e52-477b-b20c-c07a819a683d")
+	)
+	(wire
+		(pts
+			(xy 212.09 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd010780-d18b-4a2a-b317-d3b0fdec5244")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee0c9f2-d635-4848-ae9d-292c593d8696")
+	)
+	(wire
+		(pts
+			(xy 229.87 41.91) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc78b61-97b9-40ab-8b6e-c6538bafd609")
+	)
+	(wire
+		(pts
+			(xy 163.83 54.61) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a39471-df20-4200-b664-514160191751")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35d8934-2afa-4744-b7e3-79b384d4231f")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47aa932-e09f-4df5-ad1c-5af8b4da0e13")
+	)
+	(wire
+		(pts
+			(xy 236.22 69.85) (xy 251.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55949b7-3b44-409c-8cc5-bc0bdc9bbd6a")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5da75ea-9070-412f-b086-2a963a28584b")
+	)
+	(wire
+		(pts
+			(xy 194.31 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a46ecd-024c-41ac-95a5-a9bde7d816e9")
+	)
+	(wire
+		(pts
+			(xy 243.84 113.03) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85d09bc-e959-4a07-a304-3e52c27819ef")
+	)
+	(wire
+		(pts
+			(xy 212.09 46.99) (xy 212.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99c851e-3302-467a-9370-5b1a3208d732")
+	)
+	(wire
+		(pts
+			(xy 214.63 54.61) (xy 214.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c394dc-c3c0-4e08-acdf-22c3706d5305")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb024671-8913-4fd2-bc32-a8dc68e83572")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc04689-6600-4d90-9d86-d49a3adfb1db")
+	)
+	(wire
+		(pts
+			(xy 52.07 62.23) (xy 52.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc35b45-6885-49ff-b411-032cd9fe62d2")
+	)
+	(wire
+		(pts
+			(xy 229.87 64.77) (xy 212.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd232e2-0774-4aca-8652-4ca4ba73f23f")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdb5305-c771-4cd1-a377-185fb17e9840")
+	)
+	(wire
+		(pts
+			(xy 209.55 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd050efd-25e4-44fa-821a-17c41669fa0d")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde077d2-339b-43bd-aa0e-08d5903c8ded")
+	)
+	(wire
+		(pts
+			(xy 238.76 72.39) (xy 238.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce41b4ae-06e2-4734-bd19-3c4a1c590d1e")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5bc673-53b1-4b13-baa4-2c7fa510b962")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9bdd28-a59e-41be-be9c-846d6114822f")
+	)
+	(wire
+		(pts
+			(xy 146.05 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02b6dfa-eee9-42a1-bd37-2ed9cfcd323a")
+	)
+	(wire
+		(pts
+			(xy 128.27 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ad1a14-30bb-4287-9536-dd7fadef3e4e")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 176.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20077c2-3032-4290-9536-7d632f6a5ecd")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28fd45a-dca3-4705-b6d6-64ae85e9d4a3")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2976e99-beb0-4241-845c-3eadd3375627")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c9ae7f-f675-41ef-a7c1-fa93f693df8d")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33f7681-6848-4510-9bb5-f39a223ed74e")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c07478-0b89-4e73-a9b6-20f9a0c0ffa5")
+	)
+	(wire
+		(pts
+			(xy 229.87 46.99) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c4bde9-d138-4355-8d03-7d3be4bc258e")
+	)
+	(wire
+		(pts
+			(xy 199.39 39.37) (xy 196.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ee44bc-69d0-4105-9a9c-19db35c1243a")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 54.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4749169-ec20-41e0-8aff-074f1400cc2c")
+	)
+	(wire
+		(pts
+			(xy 229.87 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58e7a7f-dd32-4b75-825a-18c1b4ae3ae2")
+	)
+	(wire
+		(pts
+			(xy 179.07 39.37) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d617e772-a9de-4428-897b-45086d1efee8")
+	)
+	(wire
+		(pts
+			(xy 217.17 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a355cb-e1ff-4757-ae8d-1964ae2c9c5a")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d703d617-ea87-43e8-a0f9-0063bb10ca52")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71c578d-be50-4724-bc89-48f2c4f4fece")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8316053-c69c-4119-8118-dc4338f88c37")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8395e41-6b72-4246-9e75-9fc934b9350b")
+	)
+	(wire
+		(pts
+			(xy 229.87 57.15) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c282a2-3ede-4c83-ba53-8a380b512f6b")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 194.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da516b24-66ae-4e3c-95a0-a6c9857822e8")
+	)
+	(wire
+		(pts
+			(xy 107.95 46.99) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9315e3-a073-443e-9364-3039b52dae99")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf046c4-18a3-4caf-b21a-8804811b8eb7")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5ce9ee-c835-4639-b50b-dbbc84ebbc58")
+	)
+	(wire
+		(pts
+			(xy 52.07 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd713554-af75-4778-8e53-d1156a8f8e92")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfbcad8-2908-4d31-bf2a-14dfbdbafbb3")
+	)
+	(wire
+		(pts
+			(xy 146.05 39.37) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8955f7-0475-48e6-8a84-e576367ac626")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 158.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8d3450-2dfc-4a62-811b-5c9916be7e89")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0534a60-0631-46b1-8774-89d2fec79c85")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e053d113-c41a-41b0-aff9-24bae687c8ec")
+	)
+	(wire
+		(pts
+			(xy 146.05 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0885407-7a8e-49d0-b706-be7aa97aa76d")
+	)
+	(wire
+		(pts
+			(xy 243.84 77.47) (xy 243.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0981d88-4642-4fe0-aa7c-efeef9192c51")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f87613-4a4f-4e8f-b51e-d981feaff20e")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34681bd-3c88-46f1-9d45-f1f69ea1afac")
+	)
+	(wire
+		(pts
+			(xy 217.17 54.61) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36eea5d-e9b0-4284-805d-7382c1aeac0a")
+	)
+	(wire
+		(pts
+			(xy 87.63 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3773587-6d3c-41d9-bc10-e57da2e99b7a")
+	)
+	(wire
+		(pts
+			(xy 241.3 95.25) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fed030-8c91-4073-a1af-c235dcaa1ed0")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5764e5a-1302-4113-882d-2612aab68adc")
+	)
+	(wire
+		(pts
+			(xy 236.22 59.69) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dc2ea9-412b-4a0f-8c1f-9a46a0cc6b52")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66535a1-49ed-467b-a1b7-719ec781443e")
+	)
+	(wire
+		(pts
+			(xy 209.55 62.23) (xy 212.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67b5418-aa69-4dd9-89a6-0c1308283a52")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78b3e36-80e6-48e2-85cf-b7817ffd4344")
+	)
+	(wire
+		(pts
+			(xy 229.87 39.37) (xy 229.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78df86c-9a04-4687-95a4-4c78dce893c4")
+	)
+	(wire
+		(pts
+			(xy 179.07 69.85) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d821c0-ad9b-4de2-8de0-b7ed3a64bcb4")
+	)
+	(wire
+		(pts
+			(xy 173.99 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c46f6b-eb67-4ea1-b94f-6f9b984c6c32")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab357f7-09ac-45bb-880b-7d7350869316")
+	)
+	(wire
+		(pts
+			(xy 212.09 85.09) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb190265-6a1a-49d0-83bc-b8ae54771158")
+	)
+	(wire
+		(pts
+			(xy 209.55 85.09) (xy 212.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf75d68-e172-4aae-93f9-7d375ba1dac7")
+	)
+	(wire
+		(pts
+			(xy 140.97 62.23) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec255b5a-9b56-424e-96bd-789b357abea9")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec545dea-fba8-4313-9535-9787ab9bb8ef")
+	)
+	(wire
+		(pts
+			(xy 209.55 54.61) (xy 212.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4b3459-a5fc-4167-af65-f775c6de56f3")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 196.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee26c162-9a9f-499a-b5e7-5867ef7a644a")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee81a343-5a44-4668-8715-a034ae5af84b")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee6a45e-aca6-4057-a63f-2f746beab406")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef473267-05a0-476e-a0e0-90c1db61d394")
+	)
+	(wire
+		(pts
+			(xy 140.97 54.61) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe70a4a-0e06-4ee7-863a-65474482c48e")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01950c5-2dc9-4063-bd93-afc87ec5720a")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25b956b-7bc0-4317-b157-c6e4f38c56f9")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27893fb-0f63-49b0-b6b6-a4da0ed880ad")
+	)
+	(wire
+		(pts
+			(xy 196.85 92.71) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39e9bea-71bb-4a92-9bcf-1f8cb16f7df9")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f411d380-8ece-4752-8e3d-aa8c588417be")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c1cfe1-0a30-4673-8625-e271c6ee3dbe")
+	)
+	(wire
+		(pts
+			(xy 217.17 39.37) (xy 214.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f505b20d-c574-49d1-9251-ffa462366fc8")
+	)
+	(wire
+		(pts
+			(xy 236.22 80.01) (xy 229.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7005c35-1a48-4122-b18d-ffe8b1859ae2")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f776e3c4-e44a-4b32-876a-055ea10fe556")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c828b9-4dc4-40b6-8f54-ab546925f677")
+	)
+	(wire
+		(pts
+			(xy 123.19 64.77) (xy 105.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c9d3e1-d556-4825-ab24-4c691202d0d4")
+	)
+	(wire
+		(pts
+			(xy 69.85 62.23) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f832edb5-bfa7-4ecf-ba55-d505d11b3cc2")
+	)
+	(wire
+		(pts
+			(xy 214.63 69.85) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f8a697-78af-42a0-909f-58dc6f592bd2")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9289b86-72a7-44dc-bd4c-1b8bb9e5fd02")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4bf9fa-51d6-4f5f-a36a-943c222eae52")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5aa0df-21d8-4d66-a207-4b8fbadd764a")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa89eda8-1c11-4e3d-bdb4-e26ec5a44cad")
+	)
+	(wire
+		(pts
+			(xy 212.09 54.61) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac9fb30-084c-4f65-a991-29629f0fd197")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8b596a-7d9f-43fb-a829-da523aa38748")
+	)
+	(wire
+		(pts
+			(xy 85.09 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf378ec-8b52-4545-8153-ba7d515d2f57")
+	)
+	(wire
+		(pts
+			(xy 238.76 57.15) (xy 238.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1bc67e-eee4-4250-9a0d-f5971036212b")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1fe994-03a1-4f10-b831-aeb81b220fde")
+	)
+	(wire
+		(pts
+			(xy 163.83 92.71) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca9e495-d6c8-4a25-8115-3466d175ee9f")
+	)
+	(wire
+		(pts
+			(xy 161.29 85.09) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2fcfe9-256f-475b-9e6f-b7dcead38b20")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5b93ff-7ce3-406c-b764-f4e404a3b73b")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe644984-13df-4964-a968-99d97ba01fcf")
+	)
+	(wire
+		(pts
+			(xy 107.95 39.37) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6595dd-6d6a-4aff-bf81-4a91d99d0257")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc1e4b8-be78-4cca-9f1f-92c83448dcf1")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffd8e1a-77b3-47bc-9c98-df20b1dd8d91")
+	)
+	(label "ROW1"
+		(at 245.11 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05c9d613-2067-43cc-b43c-a1479529bba3")
+	)
+	(label "ROW3"
+		(at 245.11 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2963dec4-bb80-4937-8b36-a56ffa5d108d")
+	)
+	(label "COL5"
+		(at 129.54 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ad8705f-dc50-45b0-9077-1f3f811ed193")
+	)
+	(label "ROW8"
+		(at 245.11 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41312c05-26bb-49bd-abb0-80211390684d")
+	)
+	(label "ROW5"
+		(at 245.11 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5779d9a4-364a-4545-8b8f-b87633cede2f")
+	)
+	(label "ROW7"
+		(at 245.11 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57d3ef57-80dd-4880-b501-55b852e8ca4d")
+	)
+	(label "ROW4"
+		(at 245.11 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b864c66-7b26-4903-be45-b40bc1d4c94c")
+	)
+	(label "COL1"
+		(at 119.38 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63dea9fd-209d-4da3-8645-70a3cbd60d74")
+	)
+	(label "COL7"
+		(at 134.62 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cf86684-7e6b-4a7e-8c14-0e536d398a07")
+	)
+	(label "COL2"
+		(at 121.92 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc70854-ac15-48b8-b7c6-05f162603b34")
+	)
+	(label "ROW6"
+		(at 245.11 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a9732a1-d67e-414e-9045-fe4dd85b5eab")
+	)
+	(label "ROW_S"
+		(at 245.11 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a237f77c-5d80-439e-b206-b9ff42ff41ed")
+	)
+	(label "COL4"
+		(at 127 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5299107-8de8-4149-a9bd-6d4784358118")
+	)
+	(label "COL3"
+		(at 124.46 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5f797ae-042e-47e7-bf67-39396c95351c")
+	)
+	(label "COL8"
+		(at 137.16 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5cb9f9d-5da8-4481-b40e-5d599d747d01")
+	)
+	(label "COL6"
+		(at 132.08 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf2194cb-f208-4585-859a-2bf494253c58")
+	)
+	(label "ROW2"
+		(at 245.11 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf8c5bbf-b74f-4a30-b6c6-22ec935e78a2")
+	)
+	(label "COL10"
+		(at 142.24 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2a0b80e-c072-41d9-b5c1-a7e404604de1")
+	)
+	(label "COL11"
+		(at 144.78 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebe2ebc1-56a0-4638-a854-7861d2918714")
+	)
+	(label "COL9"
+		(at 139.7 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f825f0ff-507b-46b8-9c2a-2374791f4033")
+	)
+	(label "COL_S"
+		(at 147.32 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff6fe24f-5845-418a-a07b-24498b117f3e")
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a0cd0a-991b-4765-8f13-ad77cf544ff2")
+		(property "Reference" "S62"
+			(at 166.4462 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "UP"
+			(at 172.974 80.4037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "0990f981-6883-44be-9281-e87f4dd2dc04")
+		)
+		(pin "S2"
+			(uuid "7f46562c-b77d-483d-9e83-c3d18acb9538")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S62")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04f180bf-d345-4868-ad46-e65f9720f767")
+		(property "Reference" "S77"
+			(at 202.0062 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Э|"
+			(at 208.3816 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "f69f61c0-2efd-47db-a9de-3b0cb8780655")
+		)
+		(pin "S2"
+			(uuid "105fe2d3-b189-4c50-a24d-5bb62f21fa77")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S77")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0630c557-6c47-46ff-a589-59283feb7b9a")
+		(property "Reference" "S59"
+			(at 166.4462 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "RР"
+			(at 172.339 57.5437 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ce5e630e-d2ea-4f60-91b3-f1b1008913d2")
+		)
+		(pin "S2"
+			(uuid "d93bdb16-9a85-46ba-8c86-19a5aca7ede1")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S59")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 112.522 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a39fc7-4e5a-4e7f-9191-42af44383458")
+		(property "Reference" "S88"
+			(at 219.7862 108.3691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Стоп"
+			(at 225.2218 108.3691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "508e2e00-e9a5-482d-ae6b-e88f3e55e3ff")
+		)
+		(pin "S2"
+			(uuid "1612b299-960b-4e84-88d4-c4972466f30a")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S88")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cca4e21-b3b7-4d56-9c0d-9214837ee33e")
+		(property "Reference" "S82"
+			(at 219.7862 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "DД"
+			(at 224.3836 49.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "1f8c552c-241a-4e52-8c9e-01222e868653")
+		)
+		(pin "S2"
+			(uuid "af8469b6-46c5-4cd0-8766-d639e1131007")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S82")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1162da01-f3f0-4195-acbd-19984a23d83d")
+		(property "Reference" "S42"
+			(at 130.8862 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KК"
+			(at 136.9314 49.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "bbb6223e-f6c6-49ba-bda0-9eb8c89076c6")
+		)
+		(pin "S2"
+			(uuid "1c59e8b2-19d0-4e1f-bfa3-3e7831a6b6b0")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S42")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 80.01 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11e5980a-7e34-4d6c-af3a-7a628907e39a")
+		(property "Reference" "S19"
+			(at 77.5462 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "QЯ"
+			(at 83.312 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 80.01 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "d43c60b6-c9ef-4d58-a512-af4a52348ec0")
+		)
+		(pin "S2"
+			(uuid "82987d6c-b032-4fec-8372-b9a3742f6568")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S19")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "132a5b2a-200b-496f-b209-a93d0ed2f31f")
+		(property "Reference" "S68"
+			(at 184.2262 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "XЬ"
+			(at 190.1952 65.1637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "655805f8-dca8-48fd-a298-20816b3d3027")
+		)
+		(pin "S2"
+			(uuid "7e34f7f1-ce7f-4d53-804b-3f8702d9d0d9")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S68")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c2c715-6223-4575-bd36-1bcd946d3fe4")
+		(property "Reference" "S33"
+			(at 113.1062 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "2\""
+			(at 119.5578 42.3545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "9cc1f4cd-0eac-410b-8079-13da9ff6cb3f")
+		)
+		(pin "S2"
+			(uuid "a5662714-bc68-472a-85e6-540cacf27bca")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S33")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 80.01 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18f2428f-7c8e-435d-a57e-68469afe08b2")
+		(property "Reference" "S17"
+			(at 77.5462 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "JЙ"
+			(at 83.6422 42.3545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 80.01 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "7257ba6a-c46e-4b1d-9e79-d279e42fe944")
+		)
+		(pin "S2"
+			(uuid "6289bd91-3808-435b-986b-cc71985f1506")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S17")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c14838e-8df2-4f68-9338-80fe84e59b6c")
+		(property "Reference" "S39"
+			(at 113.1062 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Сбр"
+			(at 118.6942 88.0745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "820c9a30-606c-436b-8e48-388a4d36a239")
+		)
+		(pin "S2"
+			(uuid "05a7e9ab-3a37-41cb-be51-eed6b9558b01")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S39")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f6ef6cb-660d-4a9e-ae14-3860793315c8")
+		(property "Reference" "S44"
+			(at 130.8862 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MМ"
+			(at 136.4488 65.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "9d759d42-f9a5-4b50-ad68-ed88ff718f8c")
+		)
+		(pin "S2"
+			(uuid "a622931a-f7b2-48a5-a5cd-aabb051e3b8e")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S44")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23924b8e-b20b-4426-88ed-f9384d0b5dfd")
+		(property "Reference" "S50"
+			(at 148.6662 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "PП"
+			(at 154.559 49.9237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ff1ca140-84c1-4584-a4ad-5816c31042e9")
+		)
+		(pin "S2"
+			(uuid "dc664917-3706-4847-997c-160dad9aefc5")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S50")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "242ed6ee-d3f2-4775-a8f9-80cd54829c0e")
+		(property "Reference" "S75"
+			(at 202.0062 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "BБ"
+			(at 206.7052 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "8111e576-936b-405d-952c-c8a42db296b8")
+		)
+		(pin "S2"
+			(uuid "5bda4b8f-d0ec-46a1-b7ea-dbd2d2bae007")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S75")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "269d58d1-5876-4a34-a59c-0e3a17fb8995")
+		(property "Reference" "S53"
+			(at 148.6662 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "RT"
+			(at 155.194 72.7837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "eaee69e4-e5ad-456e-bede-85b81281a3b2")
+		)
+		(pin "S2"
+			(uuid "1b7066f5-e279-44da-887c-acc17bce61db")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S53")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28a49a91-ac4c-4dcf-9fbb-76cb86c7c9ba")
+		(property "Reference" "S57"
+			(at 166.4462 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5%"
+			(at 172.2628 42.3037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ce5b462a-aed1-4954-a614-50ff6f17ed0c")
+		)
+		(pin "S2"
+			(uuid "fa9c14d2-5ebf-46f8-9148-4807345ae117")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S57")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cba882f-49da-423c-93db-129cea4ffef8")
+		(property "Reference" "S38"
+			(at 113.1062 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Исп"
+			(at 118.745 80.4545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "09b6b393-bc5d-48a1-8a37-688b2c819740")
+		)
+		(pin "S2"
+			(uuid "09ce209f-dad4-45ae-a769-e3bf80d1c9c5")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S38")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 92.202 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30cf8dbd-b7cb-4b94-89b3-7a8839e25d3d")
+		(property "Reference" "S47"
+			(at 130.8862 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Пом"
+			(at 136.0932 88.0745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "32ab296d-5192-4c56-8a5a-372c7a9873b5")
+		)
+		(pin "S2"
+			(uuid "a7e23ff0-b31b-4475-aa32-d96690c75dbe")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386db811-77ff-4981-9f93-e25667f23ccf")
+		(property "Reference" "S61"
+			(at 166.4462 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "DN"
+			(at 172.974 72.7837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "d24e34b8-aebe-418a-baee-bde29cdbe97b")
+		)
+		(pin "S2"
+			(uuid "3e84679e-816a-4a25-8001-7765dbba272f")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S61")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3abc6bd0-4b99-4511-9fcd-95c3aeed64d7")
+		(property "Reference" "S45"
+			(at 130.8862 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "BKSP"
+			(at 137.414 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "470d0845-11cc-429b-b931-30f9c68cbb42")
+		)
+		(pin "S1"
+			(uuid "060810f5-6270-4183-bce5-770c310ed4af")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S45")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "425fd20d-68dc-4b81-bc22-a1a643b4eed5")
+		(property "Reference" "S46"
+			(at 130.8862 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Уст"
+			(at 136.5758 80.4545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "4820dcae-ed33-4a2e-8a33-06d1ef46d7cc")
+		)
+		(pin "S2"
+			(uuid "9a19171b-9fff-4140-98d3-58f7e313ed53")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S46")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 62.23 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43cf3a52-9c62-4475-8817-3281d3a32c3a")
+		(property "Reference" "S10"
+			(at 59.7662 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "УПР"
+			(at 64.897 49.9237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 62.23 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "c6ae7ebf-98c1-476a-8e8c-00cfef374274")
+		)
+		(pin "S1"
+			(uuid "6052e50f-6f4c-4e5f-8734-c7a54161c0d2")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S10")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 97.79 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47c98896-ed12-485a-87ed-7dbc9ad39cd2")
+		(property "Reference" "S24"
+			(at 95.3262 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "K1"
+			(at 102.6668 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 97.79 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "06753b5c-cdf5-4ee3-ae1c-881e3eb965ee")
+		)
+		(pin "S2"
+			(uuid "5e869240-195a-4266-a389-fc34a81db519")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S24")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47cd284d-e038-4ed2-b3c6-88ab1216b2c5")
+		(property "Reference" "S60"
+			(at 166.4462 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TТ"
+			(at 172.5168 65.1637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "de4d0326-8d97-4905-9fdc-d2dced6e8d6d")
+		)
+		(pin "S2"
+			(uuid "c8f653dd-01a2-4bd9-9b2f-2816ce0b1cd7")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S60")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4864b1af-27dc-4bd0-bb4c-7527dfbd0860")
+		(property "Reference" "S54"
+			(at 148.6662 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "RET"
+			(at 153.8224 80.4037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "5512b1ea-82e7-4ad8-a2a4-0d616d37ff15")
+		)
+		(pin "S2"
+			(uuid "93fdb754-3539-4ef1-97b0-0461afc37fd4")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S54")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc06edb-e402-46b6-a0ed-9ac4b2e1508c")
+		(property "Reference" "S51"
+			(at 148.6662 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "IИ"
+			(at 155.0162 57.5437 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "3322bb0f-fa1f-443b-b35d-b512287ef346")
+		)
+		(pin "S2"
+			(uuid "5df7780c-620a-4af7-b63f-f09f9849e87f")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S51")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "519e8ff2-21de-407a-8c8e-7739c0d15338")
+		(property "Reference" "S43"
+			(at 130.8862 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "АA"
+			(at 136.8806 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "839448c7-8bd6-4510-8a78-41badf39facd")
+		)
+		(pin "S2"
+			(uuid "668055ca-069c-4e31-a282-f3772ef43cdd")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S43")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a0d638-5d8c-47ce-a420-0f508b371dfb")
+		(property "Reference" "S80"
+			(at 219.7862 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "8("
+			(at 225.3742 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "e63d0690-9aa3-4121-96cc-7872d9c01c93")
+		)
+		(pin "S2"
+			(uuid "594f3456-1673-4170-9a8c-bf86eb324ea0")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S80")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54520687-2d92-4c19-a192-8abddc3676c2")
+		(property "Reference" "S85"
+			(at 219.7862 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "VЖ"
+			(at 225.425 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "676bf426-b773-4682-a9d3-14ffd1d20caf")
+		)
+		(pin "S2"
+			(uuid "c61606d1-1c25-4879-bc9f-6ca9d09be2f6")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S85")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 76.962 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "593f1518-fbe6-403d-a2db-903276d93dd8")
+		(property "Reference" "S69"
+			(at 184.2262 72.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" ">."
+			(at 190.7286 72.7837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "34b20b97-dcdc-48ca-8d20-1cf845b9cdd9")
+		)
+		(pin "S2"
+			(uuid "ec308b1f-394a-4eee-be79-ba71c5626942")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S69")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 44.45 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a52f38c-88d2-4072-ace2-f3fd4aca2d1b")
+		(property "Reference" "S4"
+			(at 41.9862 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Shift"
+			(at 47.244 65.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 44.45 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "e3b3bd9c-a685-4f81-ba37-223525494928")
+		)
+		(pin "S2"
+			(uuid "0dd41619-dafd-4a43-a18d-c964950273a6")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S4")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b095bb4-1aea-425a-b296-6715949dd7ea")
+		(property "Reference" "S52"
+			(at 148.6662 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SPC"
+			(at 153.7716 65.1637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "213b7398-5c52-4c5f-82e7-596ab9fa6a36")
+		)
+		(pin "S2"
+			(uuid "8b864064-c1b1-45f5-a2bb-a032f4d4c722")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S52")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 62.23 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f044d56-86f2-4897-9527-ab49d879c390")
+		(property "Reference" "S9"
+			(at 59.7662 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TAB"
+			(at 65.0748 42.3037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 62.23 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "f82154bd-642b-4ec5-ad41-9afc663e5952")
+		)
+		(pin "S2"
+			(uuid "24133587-cfe9-412b-8e7e-4eec050e7e3e")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S9")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61996286-bfad-4992-896b-41f8cf1f525e")
+		(property "Reference" "S40"
+			(at 130.8862 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "K3"
+			(at 136.9568 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "41f2033c-7175-4fa5-89c9-3a10e423cfe5")
+		)
+		(pin "S2"
+			(uuid "242af10e-0772-4720-b28a-41ba3fdfbfb0")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S40")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65a5b06a-d763-4339-913c-d6a5fef0bd19")
+		(property "Reference" "S48"
+			(at 148.6662 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "4$"
+			(at 154.8892 34.6837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "b7eab332-349a-42a8-bbc1-4a3f3b65052a")
+		)
+		(pin "S1"
+			(uuid "fa5ada45-bc5a-4742-b906-f4dcf6ea14d6")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S48")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b20741-6d76-443d-bf2a-dd3d2b101c9b")
+		(property "Reference" "S78"
+			(at 202.0062 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "HХ"
+			(at 207.8736 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "e150ac2b-e19f-4129-8e2e-e4e6c210cfd4")
+		)
+		(pin "S2"
+			(uuid "56c85bc6-0176-42b1-80b8-382d61497fea")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S78")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67218db2-a9e7-4a92-b63e-d6507c382f4e")
+		(property "Reference" "S79"
+			(at 202.0062 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0"
+			(at 207.5942 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "5a26d201-739a-4fdc-b143-01684efdaf52")
+		)
+		(pin "S2"
+			(uuid "1a98c042-30cd-4871-a062-8e2afb88e21b")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S79")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67b28408-4d43-4587-8a60-24cce79ff258")
+		(property "Reference" "S49"
+			(at 148.6662 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "EЕ"
+			(at 154.6098 42.3037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "883a053d-6a13-41bd-b8b0-bbcab293aeed")
+		)
+		(pin "S2"
+			(uuid "1412b31a-7c3d-4038-8752-117f2788c6d5")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S49")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 44.45 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67ca49fa-266e-4de6-a43d-72ac9c715ffb")
+		(property "Reference" "S89"
+			(at 41.9862 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Opt"
+			(at 47.5234 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 44.45 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "1b4c7ecf-10e5-42d7-bb93-3620d0891ff2")
+		)
+		(pin "S2"
+			(uuid "c34f50ed-b480-4e8d-96ed-2913eaed8ebe")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S89")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "687980b0-9eb0-474b-bd77-739c48a234d6")
+		(property "Reference" "S76"
+			(at 202.0062 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "LF"
+			(at 208.534 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "865c9915-89f6-4784-94d3-b941dc9463df")
+		)
+		(pin "S2"
+			(uuid "d32631c5-70b6-4cf4-97e7-0e2bfde75cd1")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S76")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72dde154-cd46-4075-ba5b-ffe06c8639cb")
+		(property "Reference" "S84"
+			(at 219.7862 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" ",<"
+			(at 226.2886 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "2bc9db76-95e8-4ba3-85a8-8e8d709d179f")
+		)
+		(pin "S2"
+			(uuid "86c0bd1a-c063-4a04-baa4-48e5ee156c7a")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S84")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7562769f-6220-4f21-9588-a32ce7b8da55")
+		(property "Reference" "S32"
+			(at 113.1062 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "K2"
+			(at 119.1768 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "507afc45-b30f-4279-92e5-e24580b87d2e")
+		)
+		(pin "S2"
+			(uuid "df3dfbf1-81e7-4611-9d0b-e685304262f5")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S32")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77e3ab03-f143-49eb-8bbb-bde993458cf6")
+		(property "Reference" "S63"
+			(at 166.4462 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "/?"
+			(at 172.72 88.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "884a0266-bf87-463e-889a-28aa7481426c")
+		)
+		(pin "S2"
+			(uuid "7bf000e5-64bd-4956-9321-a877d587c152")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S63")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 62.23 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82a9ba3b-6c86-49da-b25e-222f6f93cf01")
+		(property "Reference" "S8"
+			(at 59.7662 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "AP2"
+			(at 65.1002 34.6837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 62.23 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ea9b28f0-631d-4212-b68b-b59520b8aa32")
+		)
+		(pin "S2"
+			(uuid "705625d4-cfcf-4cc0-ad01-6ee4f5cca96e")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S8")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85e9b3e7-14bd-408b-b931-36e5491b0fe1")
+		(property "Reference" "S81"
+			(at 219.7862 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Щ]"
+			(at 224.6122 42.3545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "6ee0fe50-61bd-4a9a-9286-fb6af83474fe")
+		)
+		(pin "S2"
+			(uuid "8d3a00d4-3b3e-4a41-8dfe-cf6afdc738b8")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S81")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8adcdff9-9afd-4457-8098-7f85e97ddfe5")
+		(property "Reference" "S66"
+			(at 184.2262 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "GГ"
+			(at 190.1698 49.9237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "42d5db9d-9747-4654-ae77-1edac1119742")
+		)
+		(pin "S2"
+			(uuid "1af54937-bd1b-4ccf-9a22-ee79a9dd9cab")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S66")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c5a604-67a3-48ef-9239-5ef97dd0b73e")
+		(property "Reference" "S56"
+			(at 166.4462 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "K4"
+			(at 172.5168 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "9f41caf9-cdac-4c8d-aae4-2aedded861c2")
+		)
+		(pin "S2"
+			(uuid "15cbc0fd-b7b7-4502-b8fa-81d4a3cb93a2")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S56")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 168.91 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a39db427-4429-4c9d-809e-2d4b06359f48")
+		(property "Reference" "S58"
+			(at 166.4462 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NН"
+			(at 172.2628 49.9237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 168.91 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "bd6f2636-731a-479e-acab-28496a4493a1")
+		)
+		(pin "S2"
+			(uuid "955b2ed8-1723-484c-bc18-3c6d34100ad2")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S58")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a49bdd16-dea3-454b-ad55-d4259382ddd5")
+		(property "Reference" "S64"
+			(at 184.2262 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "K5"
+			(at 190.2968 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "97d2aa4c-10b1-4a8a-978d-917c19421522")
+		)
+		(pin "S2"
+			(uuid "4b8739fc-4880-49ab-851b-b4c882a16965")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S64")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 80.01 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ae1aab-f716-4dfa-bd6b-e65133b7e92a")
+		(property "Reference" "S16"
+			(at 77.5462 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" ";+"
+			(at 84.0486 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 80.01 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "d78b4ea5-a18b-4f08-a278-17d9d2323a6e")
+		)
+		(pin "S2"
+			(uuid "a75fe042-d6fc-467b-8bc2-dc47b944dfaf")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S16")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 133.35 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af0877df-0145-484d-8a6a-3461fda39397")
+		(property "Reference" "S41"
+			(at 130.8862 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3#"
+			(at 137.1092 42.3545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 133.35 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "fcfc47f0-66e2-4075-bf69-cd5ffa2c77b1")
+		)
+		(pin "S2"
+			(uuid "f22c4ac7-adf9-4a05-87df-f2bf3dff2325")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S41")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afa7cc60-bae2-4214-b0de-c95c7c2fa4da")
+		(property "Reference" "S73"
+			(at 202.0062 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Ш["
+			(at 206.8576 42.3545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "25cc2692-c7c9-4287-add1-2585bc887628")
+		)
+		(pin "S2"
+			(uuid "e38ffa49-c76c-41a3-892a-da32a6efa111")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S73")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 44.45 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a462b4-ac31-4005-8aec-a94fe0200476")
+		(property "Reference" "S3"
+			(at 41.9862 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Shift"
+			(at 47.244 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 44.45 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "f1de66e5-2485-4f24-9144-024bd6d93248")
+		)
+		(pin "S1"
+			(uuid "2fbe7727-fb5b-4ad7-b15e-b2a57ff98bd2")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S3")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 62.23 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7cec7f3-0551-4500-bf66-cbbd371b3059")
+		(property "Reference" "S12"
+			(at 59.7662 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ЛАТ"
+			(at 64.8462 65.1637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 62.23 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "f5e7415e-50bd-4065-8c89-e8499d3e1dab")
+		)
+		(pin "S2"
+			(uuid "05b81753-e3da-459a-99ea-7c073bea34d0")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S12")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b808cb7a-8f81-4d88-9cc9-e363fc0da056")
+		(property "Reference" "S71"
+			(at 184.2262 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "=-"
+			(at 190.6778 88.0237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "b5532827-cda8-4701-822f-a0ea15506397")
+		)
+		(pin "S2"
+			(uuid "92631174-3bae-44f1-87e2-9d24e55c909a")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S71")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 38.862 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b96f5a62-b368-4e3f-8269-ae07fe0f7be2")
+		(property "Reference" "S72"
+			(at 202.0062 34.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "7`"
+			(at 207.5942 34.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ff77bbcf-f585-4042-a4c3-51e5e6787126")
+		)
+		(pin "S2"
+			(uuid "211ef471-404f-409e-910f-fe66c2fbc178")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S72")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9c80589-41c4-428c-bda5-43f05a1c092c")
+		(property "Reference" "S34"
+			(at 113.1062 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "YУ"
+			(at 119.1006 49.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "824158ca-f7a7-4a8e-b2b2-bb29f81d5143")
+		)
+		(pin "S2"
+			(uuid "7c7bd521-adf9-44e1-bbcf-cb172e95442e")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S34")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 80.01 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcaf24c1-d82a-408b-a685-0e0575fd5d7d")
+		(property "Reference" "S20"
+			(at 77.5462 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Фикс"
+			(at 82.3722 65.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 80.01 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ab90fbdf-aa3d-4715-a7fb-7127d9286aa8")
+		)
+		(pin "S2"
+			(uuid "44aa85bb-6655-468a-8bd9-ccb9a1cddcd0")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S20")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:HDR-TH-12x1-2.54P")
+		(at 133.35 124.46 90)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bccce119-6e29-4a4e-be72-084592321303")
+		(property "Reference" "XP1"
+			(at 115.062 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDR-TH-12x1-2.54P"
+			(at 133.3627 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:HDR-TH_12P-P2.54-V-M"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-Штырьковый разъем"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254-1-12-Z-8.5"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2894935"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb495a24-1f55-4ba7-8d14-c187be3f3cec")
+		)
+		(pin "1"
+			(uuid "36ec58e7-8c6e-4dc0-955f-f3c46d73e362")
+		)
+		(pin "2"
+			(uuid "c93bf692-8548-4e90-9c4b-005a1ec181d2")
+		)
+		(pin "10"
+			(uuid "6d5051f7-32ff-4064-abed-ae575b6f6df0")
+		)
+		(pin "11"
+			(uuid "b220943a-87ba-4864-ba13-ea0974e165b5")
+		)
+		(pin "12"
+			(uuid "ed6c0528-d2ba-4c5a-b6df-7cf33059f2ea")
+		)
+		(pin "4"
+			(uuid "cc72e920-22d7-41d6-a2c1-1842c66d600e")
+		)
+		(pin "5"
+			(uuid "7267fa04-fa7c-4f56-999d-ffbfc93dc162")
+		)
+		(pin "6"
+			(uuid "2938bc7b-ba7f-462d-865c-2e0588f088a7")
+		)
+		(pin "7"
+			(uuid "c0ff35e1-169c-4786-8298-9e661a85daef")
+		)
+		(pin "8"
+			(uuid "53830824-f3dd-4b79-bd6e-6bf127d86534")
+		)
+		(pin "9"
+			(uuid "4cbfce30-7fad-46ac-a0d7-4059ed67e7b6")
+		)
+		(instances
+			(project "Keyboard-MC7007-Short"
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "XP1")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1297dd8-957a-4d5c-a1c7-cf63d83e1906")
+		(property "Reference" "S87"
+			(at 219.7862 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "9)"
+			(at 226.2632 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "c84082cc-f06c-4813-90f7-6c4544aed0dc")
+		)
+		(pin "S2"
+			(uuid "9f83570a-04d4-44e5-9488-91fc8337291f")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S87")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 80.01 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c507faaa-2b0c-4b28-93e6-50cdae9d6388")
+		(property "Reference" "S18"
+			(at 77.5462 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "FФ"
+			(at 83.4644 49.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 80.01 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "cea132cc-c9b4-4e7b-bc06-aeb031bb3ace")
+		)
+		(pin "S2"
+			(uuid "3559dc0a-a1b6-4ea5-937b-e390601fff3c")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S18")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:HDR-TH-12x1-2.54P")
+		(at 256.54 71.12 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c78002aa-56a3-474c-a48d-59d7af2fb3e2")
+		(property "Reference" "XP2"
+			(at 256.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "PZ254-1-12-Z-8.5"
+			(at 232.2322 52.1589 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:HDR-TH_12P-P2.54-V-M"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-Штырьковый разъем"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254-1-12-Z-8.5"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2894935"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114ff337-5510-4dba-9c9b-61c33a59da21")
+		)
+		(pin "5"
+			(uuid "ef44da53-abf1-4d17-9b50-a6b63f0015a6")
+		)
+		(pin "6"
+			(uuid "32fcbd4b-50ce-4b45-ba1c-5b29de0e949c")
+		)
+		(pin "7"
+			(uuid "a68be234-6b67-48ea-819f-d4fbb0c95dd5")
+		)
+		(pin "2"
+			(uuid "b9e14771-5ada-44ad-88d3-d2ee2e798340")
+		)
+		(pin "3"
+			(uuid "cfff39dd-075e-43fb-a147-11b26dd18ddd")
+		)
+		(pin "4"
+			(uuid "8f926bd3-7076-49cc-a625-6d18342b524b")
+		)
+		(pin "8"
+			(uuid "f09f86cb-ed28-429b-84c0-ec5a07106bff")
+		)
+		(pin "9"
+			(uuid "913cf5e3-49fd-4a22-b078-f0483ad94f48")
+		)
+		(pin "10"
+			(uuid "64e033a4-e1ed-426a-9562-0d5770f454bd")
+		)
+		(pin "11"
+			(uuid "ebd5f9b3-1adc-4277-914d-4a606f10796f")
+		)
+		(pin "12"
+			(uuid "e4a5c4b5-96e1-4b31-8f2c-bf03bff69e9f")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "XP2")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 151.13 92.202 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd494d02-7c08-463b-bd85-47e9d0ff6693")
+		(property "Reference" "S55"
+			(at 148.6662 88.0491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" ":*"
+			(at 154.94 88.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 151.13 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "9cf8f0a4-983e-46d7-b5e3-1d792a5d714e")
+		)
+		(pin "S2"
+			(uuid "81b503ce-16a9-499d-b6f8-7e1bd09649ad")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S55")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0823360-b0ef-4a4e-8a2d-2590e63f4ec3")
+		(property "Reference" "S36"
+			(at 113.1062 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SС"
+			(at 118.999 65.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "2a974e3b-d464-49bb-bec2-48f968a226e8")
+		)
+		(pin "S2"
+			(uuid "c8bd22d7-afdc-4f2b-9875-884e2eb853a4")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S36")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 97.79 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d208b43a-540b-4564-bac8-549d5bec46cd")
+		(property "Reference" "S25"
+			(at 95.3262 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1!"
+			(at 101.8794 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 97.79 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "36c4c526-74b2-4054-92ae-b1526f35bc0b")
+		)
+		(pin "S2"
+			(uuid "4cceffca-7fa7-422e-a5e5-38b024b97a89")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S25")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 204.47 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e48dee-8030-471e-b13c-692dc0ec6e93")
+		(property "Reference" "S74"
+			(at 202.0062 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "LЛ"
+			(at 206.8322 49.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 204.47 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "27e6a345-320e-4728-be9a-f0cafab9020c")
+		)
+		(pin "S2"
+			(uuid "6c17ed6a-83ad-417d-9b5e-4b37fe4b0001")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S74")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 62.23 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcf00738-7ccb-43f0-9bc7-b8a9f44fcda8")
+		(property "Reference" "S11"
+			(at 59.7662 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "РУС"
+			(at 64.2874 57.5437 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 62.23 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "e6f54c48-136c-4cb8-8569-352ff68ea4b4")
+		)
+		(pin "S2"
+			(uuid "9c7fc772-fc68-4f89-a330-2db4aca14442")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S11")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e00345a9-6326-40c3-a5bb-3d304cee6ddf")
+		(property "Reference" "S67"
+			(at 184.2262 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "OО"
+			(at 189.9158 57.5437 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "42f1dc43-47eb-4455-bdd2-b3b858968343")
+		)
+		(pin "S2"
+			(uuid "b69e9ac5-e355-4dc1-993f-86b05880fe57")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S67")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 97.79 54.102 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e02d7b08-935c-47dc-9bc0-6e8a4d85fc0f")
+		(property "Reference" "S26"
+			(at 95.3262 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "CЦ"
+			(at 101.1174 49.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 97.79 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "a30c4745-ad9d-4852-8ff6-6ecddc71a739")
+		)
+		(pin "S2"
+			(uuid "1c4303b4-fff4-4cf9-9f8f-a9724a47ee47")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S26")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 97.79 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2e7f598-daca-4d36-ba53-615a7d66b780")
+		(property "Reference" "S27"
+			(at 95.3262 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "YЫ"
+			(at 101.0158 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 97.79 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "a1f99c61-45ac-4561-aae4-dddba61f4538")
+		)
+		(pin "S2"
+			(uuid "5341688e-d08d-435a-929d-0205b5cb53f5")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S27")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb951fc8-3861-4527-bb86-a9927002d5a3")
+		(property "Reference" "S83"
+			(at 219.7862 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "@Ю"
+			(at 224.917 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "e8ee6d4a-d3cb-4915-96ae-85bcd1007f8d")
+		)
+		(pin "S2"
+			(uuid "8d7b16f0-d961-4861-aa13-f9c50d765e9f")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S83")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef8f3cab-2927-4e38-bc13-2edaccfe2e45")
+		(property "Reference" "S70"
+			(at 184.2262 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Ъ_"
+			(at 190.119 80.4037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "9d986d1e-9293-46c7-9b2f-84464d474b9e")
+		)
+		(pin "S2"
+			(uuid "a144aa3e-5d72-4143-8c8a-ebbd77a26149")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S70")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 97.79 69.342 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d12f79-97d6-4093-9d3a-325c9d4f0cd1")
+		(property "Reference" "S28"
+			(at 95.3262 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "^Ч"
+			(at 101.219 65.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 97.79 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "6673e8e9-3c76-4c92-b4d4-0880189178ce")
+		)
+		(pin "S2"
+			(uuid "605a4308-4d50-48de-8d0d-e12ff075e199")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S28")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 115.57 61.722 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f23a67f5-3374-48d7-a48f-ce38f9509341")
+		(property "Reference" "S35"
+			(at 113.1062 57.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "WВ"
+			(at 118.7196 57.5945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 115.57 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "a28239da-5871-4b95-b9df-3e5a43f2dfe7")
+		)
+		(pin "S2"
+			(uuid "45956107-3866-4fdc-88a0-72affa6d1c28")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S35")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 186.69 46.482 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f396afe2-9ca4-401c-8f1a-271907d46963")
+		(property "Reference" "S65"
+			(at 184.2262 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "6&"
+			(at 190.2968 42.3037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 186.69 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "e1c3f688-ba37-4073-a245-b576f110e080")
+		)
+		(pin "S1"
+			(uuid "4ddc3dab-322c-4fed-a018-ebb1dbf9345a")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S65")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard-MC7007-Short:CHERY_MX_DIODE_6")
+		(at 222.25 84.582 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8366b6f-93b6-493a-af63-234a52e10095")
+		(property "Reference" "S86"
+			(at 219.7862 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ZЗ"
+			(at 225.8822 80.4291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Keyboard-MC7007-Short:CHERRY_MX"
+			(at 222.25 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "0e787a37-e9fb-4738-b558-c9c5b0f458a8")
+		)
+		(pin "S1"
+			(uuid "c8f3be07-532a-4ed9-b34f-bf5bac6a68bd")
+		)
+		(instances
+			(project ""
+				(path "/eec0dfdc-f819-4752-bef3-f6d3b3ac2b99"
+					(reference "S86")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "gost_landscape.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBhILUnAAZrgzFQdTow6/sNILIV1TIw5zlbg/WJMHlF251w3xY6sje8JsLAtpQyyZRKOJd/
+				JcJMEVMDfQBoAH0AV3/vaONkGLWVL91MUDNcNzNsIIA/nRmqIN3WMWST2mqb2aZxFjzrtnnptqEh
+				aisM5cyCAMbs/Gwyailnbh+NUm0BpFGqeocOtlGV3AzrbJuPAm2Ynuq7csutA2XAImaGeajqrd4p
+				gYWoaFJqQRB0hqhdAAqhjTYehdnZgKgvBJilokkXaIzM7v37d7nLyO+elOu8PdOolrlndsjrnDuo
+				8Sgvdxndg/z9j3fket17ZI17a9rZ9SUdxn/o/vzc25fPo0vY/9jd8f+6q+U/XhcZftTs6Hqvpfuv
+				qEeeTOPNNIyCtMd0YRMn0oklpVodlySpFs0UpcoRfRuS+vsx77tH7sh7PSadKDZas46dSsnECaW6
+				aDRfJpd4SZVKYqrxLbjZ9Ig2H2pZwoxvfpV0KlUMd+2kG6ptcd0qqSwVpZbqSb2ovU2aTc6OGjAa
+				gniw2vct+LwhDXQQwBhrpVacUmpLNdVSAJU/92Nv9/ot7gj5YieZejZufPJycT9ezPtvHYRO4LF8
+				cb8foXunQ3R3mmkN1Mp3kHnvbZDhlUyQec4TMrvSUkcu0klEdsjFsUsgEZ58dL/Hi84em/txm+qi
+				1LVcqsnj2zVLNakrFcWl7sTJpHrsW0/yFYFrqEFNqWakIAVJIcMaUZHAGKIVnh2CUAzCIBjDgCAJ
+				YhwBpASMEEIIIYQQRAwSmSDbAbh9KVHAotiU8u8PPGBcRNvHLEQGGPFil8RyDlBCl2YOIs4gnIOA
+				iLQVgoppHoOPvwFmIKGqcQt5SyKZexs3cHBvQdcbR6ypRyLXAl10tS2h+o86vlQey+stBnYydIAn
+				rX5MNiUhs03z2sCNvqk0JEqnbo+S412auf1MUCuThvyWVno5Jh/aiqVwF3CVaBaNjL9I2lEAv2HR
+				jYuk14Wl9rPg40kEy/LA0C7vZzyFZdhsXWRWgIkTGOK84J8x4k2h3nsHpCxrhtsbROziIT3lO74R
+				bIk7EV1LzNHI+mTx3xxAGCOCn9QA3hbXGHdi6wiXUFVVK+zVpxUorJOvLJwh8TG49OA/eJ+spHcO
+				sbihj9PZz8hsi5kPaOxDI/s4nHZpy6Lz/UvWayiDSfr5csXc5q64YJe6Z5hCt0I+gQMF/+CLTBSL
+				6J2tIJ3+DM3nnqw1znBAGsVnpzHdTD9JgX4stepSprjpDFAkOPeok48n9y3/Kn2BsoPXWsAzg1Jg
+				i90RT2hlyOtJotMwmOnJRdcE9hSp2eAQuIM+wHc/5uBSxlLyO+RUhKEOLpQU0AsOZ05CCKlA1okM
+				6V7+v3dAiFfh6rdqPH3s+2F1l3s01HMBecG99ayY/4vFnbRGIZifUeWhpXHiv9Woq0rNc9394jqn
+				JFCj+imoeyspl1vMq8CrqfslTNL4bhDtda4iqG9cBsqBr1EuWbrrOj7BS2Wk6mMUQ+waMpAq1Mwp
+				bZSvMvJDVz40Jy6A7+N/R1ri1r8iNohd/5Klmd9A9xH45pUGLSIrDZZ/nSPYu4/S2SblUTE87gvf
+				vwXzJxhqOXsXWlJDZDQISpaKn4TnUfDcqUhA50dfCD17xlyz1ngMhgvK1ppovZM+CtnHQYZtBgM2
+				19xj1YkuwhDQpM6Y+jzbF5hqXqMhOWrIXBU=|
+			)
+			(checksum "4D181E6B1F2AE8FDFD245D2D02E3988C")
+		)
+	)
+)

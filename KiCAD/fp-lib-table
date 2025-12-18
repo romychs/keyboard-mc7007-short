@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Keyboard-MC7007-Short")(type "KiCad")(uri "$(KIPRJMOD)/Keyboard-MC7007-Short.pretty")(options "")(descr ""))
+)
